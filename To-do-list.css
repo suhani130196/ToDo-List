@@ -1,0 +1,124 @@
+body{
+    height:100px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.row{
+    display: flexbox;
+}
+.column {
+    padding: 10px;
+    float: left;
+    height: 1100px;
+}
+#left{
+    width: 35%;  
+}
+#right{
+    width: 65%;
+    padding-left: 100px;
+}
+#right h1{
+    text-align: center;
+}
+#left h1{
+    padding-left:  60px;
+    font-size: 70px;
+    color: #618678;
+    font-family: fantasy;   
+}
+.todo-app{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+}
+.todo-app h1 img{
+    width: 90px;
+    margin-left: 10px;
+}
+.text-type{
+    display: flex;
+}
+.text-add{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+#add-task-box{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 100px;
+    border: none;
+    text-align: center;
+    margin-right: 10px;
+}
+#add-btn{
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #BCD9FF;
+}
+ul li{
+    padding: 20px 20px 8px 10px;
+    text-align: center;
+    display: flex;
+    margin-top: -20px;
+}
+.taskHeading{
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #618678;
+}
+#list-container{
+    margin-top: 80px;
+
+}
+.label{
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+}
+.lidiv{
+    margin-bottom: 15px;
+    padding: 5px;
+    /* display: flex;
+    align-items: center; */
+}
+.remove{
+    margin-left: 40px;
+    border-radius: 25px;
+    border-style: hidden;
+    color: grey;
+}
+.edit{
+    margin-left: 200px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+.save-btn{
+    border-radius: 20px;
+    border-style: hidden;
+    margin-left: 40px;
+}
+.cancel-btn{
+    border-radius: 20px;
+    border-style: hidden;
+    margin-left: 40px;
+}
+.elabel{
+    margin-left: 20px;
+    border-radius: 10px;
+    border-color: grey;
+    border-style: groove;
+    border-width: 1px;
+}

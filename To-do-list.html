@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="To-do-list.css">
+        <tittle></tittle>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="column" id="left" style="background-color: #ECD8E1;">
+                    <div class="todo-app">
+                        <h1>To-do List <img src="To-do.png"></h1>
+                    </div>
+                    <div class="text-add">
+                        <input type="text" id="add-task-box" placeholder="Add Your task" >
+                            <button id="add-btn" onclick="createTask()">Add</button>                        
+                    </div>
+                </div>
+                <div class="column" id="right" style="background-color: #BCD9FF;">
+                    <h1 class="taskHeading">My Task</h1>
+                    <ul id="list-container">
+                        <!-- <li> <input type="checkbox" id="checkbox"> Task 1 </li>
+                        <li> <input type="checkbox" id="checkbox"> Task 2</li>
+                        <li> <input type="checkbox" id="checkbox"> Task 3</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="To-do-list.js"></script>
+</html>
+
+<!-- 1. Heading To-do list.
+2. input text box. 
+3. add to list button.
+4. add tasks to the list with check box. 
+5. mark task completed w/ overwrite line. 
+6. remove taks from the list with cross button.  -->
